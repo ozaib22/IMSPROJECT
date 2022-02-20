@@ -1,7 +1,7 @@
-Coverage: 34%
-# Project Title
+Coverage: 100% completed system
+# QA Inventory Management System
 
-One Paragraph of project description goes here
+This project will create an inventory management system.
 
 ## Getting Started
 
@@ -74,7 +74,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
+Omar Zaib Mahmood
 
 ## License
 
