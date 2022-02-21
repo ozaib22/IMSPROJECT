@@ -3,27 +3,31 @@ Coverage: 100% completed system
 
 This project will create an inventory management system, that will allow the end user to engage with the system to recieve the following outcomes.
 
-- Add a customer to the system
-- View all customers in the system
-- Update a customer in the system
-- Delete a customer in the system.
-- Add an item to the system
-- View all items in the system
-- Update an item in the system
-- Delete an item in the system
-- Create an order in the system.
-- View all orders in the system.
-- Delete an order in the system
-- Add an item to an order.
-- Calculate a cost for an order.
-- Delete an item in an order
+```
+- Enable the user to add a customer to the inventory management system
+- Enable the user to view all customers in inventory management the system
+- Enable the user to update a customer in the inventory management system
+- Enable the user to delete a customer in the inventory management system.
+- Enable the user to add an item to the inventory management system
+- Enable the user to view all items in inventory management the system
+- Enable the user to update an item in the inventory management system
+- Enable the user to delete an item in the inventory management system
+- Enable the user to create an order in the inventory management system.
+- Enable the user to view all orders in the inventory management system.
+- Enable the user to delete an order in the inventory management system
+- Enable the user to add an item to an order.
+- Enable the user to calculate a cost for an order.
+- Enable the user to delete an item in an order
+```
 
 A Command Line Interface (CLI) withinn JAVA will react with a MySQL Database using a CRUD functionality to:
 
+```
 - CREATE
 - READE
 - UPDATE
 - DELETE
+```
 
 ## Getting Started
 
