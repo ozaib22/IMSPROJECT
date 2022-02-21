@@ -72,7 +72,7 @@ To run tests on this application:
 
 ### Unit Tests 
 
-The following tests have been created to test the item class, and will test if the coding has been implemented correctly to create an item name, value, delete iteam and read me functionalities.
+The following tests have been created to test the item class, and will test if the coding has been implemented correctly to create an item name, value, delete item and read me functionalities.
 
 ```
 public class ItemDAOTest {
