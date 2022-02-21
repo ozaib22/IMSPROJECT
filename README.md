@@ -18,40 +18,42 @@ This project will create an inventory management system, that will allow the end
 - Calculate a cost for an order.
 - Delete an item in an order
 
+A Command Line Interface (CLI) withinn JAVA will react with a MySQL Database using a CRUD functionality to:
+
+- CREATE
+- READE
+- UPDATE
+- DELETE
+
 ## Getting Started
 
+1. Download or fork file from this repository.
+2. Run IMSPROJECT in JAVA Eclipse.
+3. Navigate to db.properties > src/test/resources and change db.url to your MySQL url and set db.user password to your MySQl password, in order to connect your database to the program.
+4. Navigate to Runner > src/main/java and run program
+5. The console will then begin to run the CRUD functionality and you may start to use the application.
+
+The following functionality will be shown if application has been succesfully executed:
+
+Welcome to my QA Inventory Management System!
+Which entity would you like to use?
+CUSTOMER: Information about customers
+ITEM: Individual Items
+ORDER: Purchases of items
+STOP: To close the application
 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+### Prerequisites and Installation
 
 The following programs are needed to be installed to allow further development and testing
 
 To run this project it is recommended that you install the following programs to see full functionality of codes and relative databases.
 
-- IDE ECLIPSE JAVA
-- MAVEN
-- mySQL
-- jUnit Test
+- IDE ECLIPSE JAVA - instructions on how to complete installation - https://www.eclipse.org/downloads/packages/installer
+- MAVEN - instructions on how to complete installation - https://o7planning.org/10101/install-maven-for-eclipse
+- MySQL - instructions on how to complete installation - https://www.mysqltutorial.org/install-mysql/
+- jUnit Test - instructions on how to complete installation - https://www.guru99.com/download-installation-junit.html
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
