@@ -1,8 +1,30 @@
 DROP TABLE IF EXISTS `customers`;
-
 CREATE TABLE IF NOT EXISTS `customers` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
     `first_name` VARCHAR(40) DEFAULT NULL,
     `surname` VARCHAR(40) DEFAULT NULL,
+    PRIMARY KEY (`id`)
+);
+
+DROP TABLE IF EXISTS `items`;
+CREATE TABLE IF NOT EXISTS `items` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(40) DEFAULT NULL,
+    `value` DOUBLE DEFAULT NULL,
+    PRIMARY KEY (`id`)
+);
+
+DROP TABLE IF EXISTS `orders`;
+CREATE TABLE IF NOT EXISTS `orders` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `customerId` INT(11) DEFAULT NULL,
+    PRIMARY KEY (`id`)
+);
+
+DROP TABLE IF EXISTS `maporderitem`;
+CREATE TABLE IF NOT EXISTS `maporderitem` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `orderId` INT(11) DEFAULT NULL,
+    `itemId` INT(11) DEFAULT NULL,
     PRIMARY KEY (`id`)
 );
