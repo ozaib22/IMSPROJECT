@@ -4,20 +4,20 @@ Coverage: 100% completed system
 This project will create an inventory management system, that will allow the end user to engage with the system to recieve the following outcomes.
 
 ```
-- Enable the user to add a customer to the inventory management system
-- Enable the user to view all customers in inventory management the system
-- Enable the user to update a customer in the inventory management system
+- Enable the user to add a customer to the inventory management system.
+- Enable the user to view all customers in inventory management the system.
+- Enable the user to update a customer in the inventory management system.
 - Enable the user to delete a customer in the inventory management system.
-- Enable the user to add an item to the inventory management system
-- Enable the user to view all items in inventory management the system
-- Enable the user to update an item in the inventory management system
-- Enable the user to delete an item in the inventory management system
+- Enable the user to add an item to the inventory management system.
+- Enable the user to view all items in inventory management the system.
+- Enable the user to update an item in the inventory management system.
+- Enable the user to delete an item in the inventory management system.
 - Enable the user to create an order in the inventory management system.
 - Enable the user to view all orders in the inventory management system.
 - Enable the user to delete an order in the inventory management system
 - Enable the user to add an item to an order.
 - Enable the user to calculate a cost for an order.
-- Enable the user to delete an item in an order
+- Enable the user to delete an item in an order.
 ```
 
 A Command Line Interface (CLI) withinn JAVA will react with a MySQL Database using a CRUD functionality to:
@@ -50,7 +50,7 @@ STOP: To close the application
 
 ### Prerequisites and Installation
 
-The following programs are needed to be installed to allow further development and testing
+The following programs are needed to be installed to allow further development and testing.
 
 To run this project it is recommended that you install the following programs to see full functionality of codes and relative databases.
 
@@ -128,7 +128,7 @@ This application can be packaged in bytes and into .javac files for full running
 
 ## Built With
 
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Maven](https://maven.apache.org/) - Dependency Management.
 
 ## Versioning
 
