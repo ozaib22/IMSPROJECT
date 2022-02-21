@@ -1,19 +1,39 @@
 Coverage: 100% completed system
 # QA Inventory Management System
 
-This project will create an inventory management system.
+This project will create an inventory management system, that will allow the end user to engage with the system to recieve the following outcomes.
+
+- Add a customer to the system
+- View all customers in the system
+- Update a customer in the system
+- Delete a customer in the system.
+- Add an item to the system
+- View all items in the system
+- Update an item in the system
+- Delete an item in the system
+- Create an order in the system.
+- View all orders in the system.
+- Delete an order in the system
+- Add an item to an order.
+- Calculate a cost for an order.
+- Delete an item in an order
 
 ## Getting Started
+
+
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The following programs are needed to be installed to allow further development and testing
 
-```
-Give examples
-```
+To run this project it is recommended that you install the following programs to see full functionality of codes and relative databases.
+
+- IDE ECLIPSE JAVA
+- MAVEN
+- mySQL
+- jUnit Test
 
 ### Installing
 
@@ -78,12 +98,8 @@ Omar Zaib Mahmood
 
 ## License
 
-This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details 
-
-*For help in [Choosing a license](https://choosealicense.com/)*
+This project is licensed under QA Training Academy - all works and codes are owned by QA Academy.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+The author would like to acknowledge the QA Training team for all its efforts and helps, aswell as the team members within the cohort who leading up to the project were helpful and inspiring. Moreover the author would like to thank family and friends for being supportive throughout this course, and god almighty.
